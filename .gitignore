@@ -1,0 +1,37 @@
+# Credenciais e configurações locais
+settings.py
+.env
+.env.*
+
+# Ambiente virtual
+.venv/
+venv/
+env/
+
+# Banco SQLite e arquivos auxiliares
+subscriptions.db
+subscriptions.db-shm
+subscriptions.db-wal
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# IDEs e sistema operacional
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Backups locais
+*.backup
+*.bak
